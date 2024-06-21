@@ -1,0 +1,662 @@
+<XnaContent>
+	<Room>
+	<RoomNumber>0</RoomNumber>
+	<SourceRectangle>258 886 256 176</SourceRectangle>
+		
+	<Rectangle>0 0 120 700</Rectangle>
+	<Rectangle>0 0 1024 128</Rectangle>
+	<Rectangle>0 584 1024 128</Rectangle>
+		
+
+	<Rectangle>896 0 128 312</Rectangle>
+	<Rectangle>896 388 128 312</Rectangle>
+
+		
+		
+		
+		
+	<Rectangle>0 0 80 700</Rectangle>
+	<Rectangle>0 0 1024 92</Rectangle>
+	<Rectangle>932 0 92 700</Rectangle>
+	<Rectangle>0 608 1024 92</Rectangle>
+
+	
+
+	<Item>Key 680 400 true</Item>
+	
+	
+	
+	<Item>Door right 1</Item>
+</Room>
+<Room>
+	<RoomNumber>1</RoomNumber>
+	<SourceRectangle>515 886 256 176</SourceRectangle>
+	<Rectangle>0 584 1024 128</Rectangle>
+	<!-- Block (563, 934, 16, 16) is the first obstacle block
+	can calculate the rest of the obstacle blocks-->
+	<Rectangle>0 0 128 312</Rectangle>
+	<Rectangle>0 388 128 312</Rectangle>
+
+	<Rectangle>0 0 472 128</Rectangle>
+	<Rectangle>548 0 472 128</Rectangle>
+
+	<Rectangle>896 0 128 312</Rectangle>
+	<Rectangle>896 388 128 312</Rectangle>
+
+	
+	
+	<Rectangle>192 192 64 64</Rectangle>
+	<Rectangle>192 320 64 64</Rectangle>
+	<Rectangle>192 448 64 64</Rectangle>
+	<Rectangle>384 192 64 64</Rectangle>
+	<Rectangle>384 320 64 64</Rectangle>
+	<Rectangle>384 448 64 64</Rectangle>
+	<Rectangle>576 192 64 64</Rectangle>
+	<Rectangle>576 320 64 64</Rectangle>
+	<Rectangle>576 448 64 64</Rectangle>
+	<Rectangle>768 192 64 64</Rectangle>
+	<Rectangle>768 320 64 64</Rectangle>
+	<Rectangle>768 448 64 64</Rectangle>
+
+	<Rectangle>0 0 92 700</Rectangle>
+	<Rectangle>0 0 1024 92</Rectangle>
+	<Rectangle>932 0 92 700</Rectangle>
+	<Rectangle>0 608 1024 92</Rectangle>
+
+	<Item>Ring 300 200</Item>
+	<Item>Door left 0</Item>
+	<Item>Door right 2</Item>
+	<Item>Door top 3</Item>
+	<Item>KeyDoor top</Item>
+</Room>
+<Room>
+	<RoomNumber>2</RoomNumber>
+	<SourceRectangle>772 886 256 176</SourceRectangle>
+	
+	<Rectangle>0 0 128 312</Rectangle>
+	<Rectangle>0 388 128 312</Rectangle>
+
+	
+	<Rectangle>0 0 1024 128</Rectangle>
+	<Rectangle>896 0 128 700</Rectangle>
+	<Rectangle>0 584 1024 128</Rectangle>
+	
+	<Rectangle>256 256 128 192</Rectangle>
+	<Rectangle>640 256 128 192</Rectangle>
+
+	<Rectangle>0 0 92 700</Rectangle>
+	<Rectangle>0 0 1024 92</Rectangle>
+	<Rectangle>932 0 92 700</Rectangle>
+	<Rectangle>0 608 1024 92</Rectangle>
+	
+
+	<Enemy>Skeleton 320 128 true</Enemy>
+	<Enemy>Skeleton 320 512 false</Enemy>
+	<Enemy>Skeleton 448 256 false</Enemy>
+	<Enemy>Skeleton 448 384 false</Enemy>
+	<Enemy>Skeleton 768 192 false</Enemy>
+	<Item>Door left 1</Item>
+
+
+</Room>
+<Room>
+	<RoomNumber>3</RoomNumber>
+	<SourceRectangle>515 709 256 176</SourceRectangle>
+
+	
+
+	<Rectangle>0 0 472 128</Rectangle>
+	<Rectangle>548 0 472 128</Rectangle>
+
+	
+
+	<Rectangle>0 576 472 128</Rectangle>
+	<Rectangle>548 576 472 128</Rectangle>
+	<Rectangle>0 0 128 700</Rectangle>
+	<Rectangle>896 0 128 700</Rectangle>
+
+	<Rectangle>0 0 92 700</Rectangle>
+	<Rectangle>0 0 1024 92</Rectangle>
+	<Rectangle>932 0 92 700</Rectangle>
+	<Rectangle>0 608 1024 92</Rectangle>
+
+	<Rectangle>448 256 128 192</Rectangle>
+	<Enemy>Skeleton 384 256 false</Enemy>
+	<Enemy>Skeleton 576 256 false</Enemy>
+	<Enemy>Skeleton 320 384 false</Enemy>
+	<Item>Door bottom 1</Item>
+	<Item>Door top 5</Item>
+	<Item>KeyDoor bottom</Item>
+
+</Room>
+<Room>
+	<RoomNumber>4</RoomNumber>
+	<SourceRectangle>258 532 256 176</SourceRectangle>
+	<Rectangle>0 0 128 700</Rectangle>
+	<Rectangle>0 584 1024 128</Rectangle>
+	
+
+	<Rectangle>0 0 472 128</Rectangle>
+	<Rectangle>548 0 472 128</Rectangle>
+
+	<Rectangle>896 0 128 312</Rectangle>
+	<Rectangle>896 388 128 312</Rectangle>
+
+	
+	<Rectangle>448 256 128 192</Rectangle>
+
+	<Rectangle>0 0 92 700</Rectangle>
+	<Rectangle>0 0 1024 92</Rectangle>
+	<Rectangle>932 0 92 700</Rectangle>
+	<Rectangle>0 608 1024 92</Rectangle>
+
+	<Enemy>Bat 128 320</Enemy>
+	<Enemy>Bat 192 192</Enemy>
+	<Enemy>Bat 320 256</Enemy>
+	<Enemy>Bat 320 384</Enemy>
+	<Enemy>Bat 640 128</Enemy>
+	<Enemy>Bat 640 512</Enemy>
+
+	<Item>Door top 8</Item>
+	<Item>Door right 5</Item>
+	<Item>KeyDoor top</Item>
+	<Item>ClearRoomDoor right false</Item>
+
+</Room>
+<Room>
+	<RoomNumber>5</RoomNumber>
+	<SourceRectangle>515 532 256 176</SourceRectangle>
+	
+	
+	<Rectangle>0 0 128 312</Rectangle> 
+	<Rectangle>0 388 128 312</Rectangle>
+	
+	<Rectangle>0 0 472 128</Rectangle> 
+	<Rectangle>548 0 472 128</Rectangle>
+	
+	<Rectangle>896 0 128 312</Rectangle> 
+	<Rectangle>896 388 128 312</Rectangle>
+	
+	<Rectangle>0 576 472 128</Rectangle> 
+	<Rectangle>548 576 472 128</Rectangle>
+	
+	
+	<Rectangle>256 256 64 64</Rectangle>
+	<Rectangle>256 384 64 64</Rectangle>
+	<Rectangle>704 256 64 64</Rectangle>
+	<Rectangle>704 384 64 64</Rectangle>
+
+	
+	<Rectangle>0 0 92 700</Rectangle>
+	
+	<Rectangle>0 0 1024 92</Rectangle>
+	
+	<Rectangle>932 0 92 700</Rectangle>
+	
+	<Rectangle>0 608 1024 92</Rectangle>
+
+	<Enemy>Skeleton 384 256 false</Enemy>
+	<Enemy>Skeleton 640 128 false</Enemy>
+	<Enemy>Skeleton 576 256 false</Enemy>
+	<Enemy>Skeleton 512 320 false</Enemy>
+	<Enemy>Skeleton 640 384 false</Enemy>
+	
+	<Item>Door left 4</Item>//left door
+	<Item>Door top 9</Item>//top door
+	<Item>Door right 6</Item>//right door
+	<Item>Door bottom 3</Item>//bottom door
+	<Item>Key 512 192 true</Item>
+	<Item>ExplodedDoor top</Item>
+
+	</Room>
+	<Room>
+		<RoomNumber>6</RoomNumber>
+		<SourceRectangle>772 532 256 176</SourceRectangle>
+		<Rectangle>0 0 128 312</Rectangle>
+		<Rectangle>0 388 128 312</Rectangle>
+
+		<Rectangle>0 0 472 128</Rectangle>
+		<Rectangle>548 0 472 128</Rectangle>
+
+		
+		<Rectangle>896 0 128 700</Rectangle>
+		<Rectangle>0 584 1024 128</Rectangle>
+		
+		<Rectangle>256 192 64 64</Rectangle>
+		<Rectangle>256 448 64 64</Rectangle>
+		<Rectangle>704 192 64 64</Rectangle>
+		<Rectangle>704 448 64 64</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+
+		<Enemy>Bat 320 128</Enemy>
+		<Enemy>Bat 320 512</Enemy>
+		<Enemy>Bat 640 384</Enemy>
+		<Enemy>Bat 512 384</Enemy>
+		<Enemy>Bat 640 256</Enemy>
+		<Enemy>Bat 768 192</Enemy>
+		<Enemy>Bat 832 320</Enemy>
+		<Enemy>Bat 768 448</Enemy>
+		
+		<Item>Door left 5</Item>
+		<Item>Door top 10</Item>
+		<Item>ExplodedDoor top</Item>
+		<Item>Compass 768 320</Item>
+
+	</Room>
+	<Room>
+		<RoomNumber>7</RoomNumber>
+		<SourceRectangle>1 355 256 176</SourceRectangle>
+		
+
+		<Rectangle>0 576 472 128</Rectangle>
+		<Rectangle>548 576 472 128</Rectangle>
+		<Rectangle>0 0 128 700</Rectangle>
+		<Rectangle>0 0 1024 128</Rectangle>
+		<Rectangle>0 584 1024 128</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+
+		
+		<Item>Door right 8</Item>
+		
+
+	</Room>
+	<Room>
+		<RoomNumber>8</RoomNumber>
+		<SourceRectangle>258 355 256 176</SourceRectangle>
+		<Rectangle>0 0 1024 128</Rectangle>
+		<Rectangle>0 0 128 312</Rectangle>
+		<Rectangle>0 388 128 312</Rectangle>
+
+		
+
+		<Rectangle>896 0 128 312</Rectangle>
+		<Rectangle>896 388 128 312</Rectangle>
+
+		<Rectangle>0 576 472 128</Rectangle>
+		<Rectangle>548 576 472 128</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+		
+	
+		
+
+		<Item>Door left 7</Item>
+		
+		<Item>Door right 9</Item>
+		<Item>Door bottom 4</Item>
+		<Item>KeyDoor bottom</Item>
+		<Item>ClearRoomDoor left true</Item>
+		<Item>DecoyBlock 448 320</Item>
+		<Enemy>Gel 384 192</Enemy>
+		<Enemy>Gel 384 448</Enemy>
+		<Enemy>Gel 320 320</Enemy>
+		
+
+	</Room>
+	<Room>
+		<RoomNumber>9</RoomNumber>
+		<SourceRectangle>515 355 256 176</SourceRectangle>
+		<Rectangle>0 0 128 312</Rectangle>
+		<Rectangle>0 388 128 312</Rectangle>
+
+		<Rectangle>0 0 472 128</Rectangle>
+		<Rectangle>548 0 472 128</Rectangle>
+
+		<Rectangle>896 0 128 312</Rectangle>
+		<Rectangle>896 388 128 312</Rectangle>
+
+		<Rectangle>0 576 472 128</Rectangle>
+		<Rectangle>548 576 472 128</Rectangle>
+		
+		<Rectangle>192 192 128 64</Rectangle>
+		<Rectangle>192 448 128 64</Rectangle>
+		<Rectangle>704 192 128 64</Rectangle>
+		<Rectangle>704 448 128 64</Rectangle>
+		<Rectangle>448 320 128 64</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+		
+		
+		<Item>Map 700 350</Item>
+
+		<Item>Door left 8</Item>
+		<Item>Door top 12</Item>
+		<Item>Door right 10</Item>
+		<Item>Door bottom 5</Item>
+		<Item>KeyDoor right</Item>
+		<Enemy>Gel 384 320</Enemy>
+		<Enemy>Gel 448 192</Enemy>
+		<Enemy>Gel 640 192</Enemy>
+		<Enemy>Gel 704 320</Enemy>
+		<Enemy>Gel 768 128</Enemy>
+		
+
+		
+
+	</Room>
+	<Room>
+		<RoomNumber>10</RoomNumber>
+		<SourceRectangle>772 355 256 176</SourceRectangle>
+		<Rectangle>0 0 1024 128</Rectangle>
+		<Rectangle>0 0 128 312</Rectangle>
+		<Rectangle>0 388 128 312</Rectangle>
+
+		<Rectangle>896 0 128 312</Rectangle>
+		<Rectangle>896 388 128 312</Rectangle>
+
+		<Rectangle>0 576 472 128</Rectangle>
+		<Rectangle>548 576 472 128</Rectangle>
+		
+		<Rectangle>256 256 64 64</Rectangle>
+		<Rectangle>256 384 64 64</Rectangle>
+		<Rectangle>704 256 64 64</Rectangle>
+		<Rectangle>704 384 64 64</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+		
+		<Item>Door left 9</Item>
+		
+		<Item>Door right 11</Item>
+		<Item>Door bottom 6</Item>
+		<Item>KeyDoor left</Item>
+		<Enemy>Goriya 640 256</Enemy>
+		<Enemy>Goriya 640 384</Enemy>
+		<Enemy>Goriya 768 192</Enemy>
+		<Item>Boomerang 512 256 true</Item>
+		
+
+	</Room>
+	<Room>
+		<RoomNumber>11</RoomNumber>
+		<SourceRectangle>1029 355 256 176</SourceRectangle>
+		<Rectangle>0 0 128 312</Rectangle>
+		<Rectangle>0 388 128 312</Rectangle>
+
+		<Rectangle>0 0 472 128</Rectangle>
+		<Rectangle>548 0 472 128</Rectangle>
+
+		
+		<Rectangle>896 0 128 700</Rectangle>
+		<Rectangle>0 584 1024 128</Rectangle>
+		
+		
+		<Rectangle>192 192 64 64</Rectangle>
+		<Rectangle>192 320 64 64</Rectangle>
+		<Rectangle>192 448 64 64</Rectangle>
+		<Rectangle>320 192 64 64</Rectangle>
+		<Rectangle>320 320 64 64</Rectangle>
+		<Rectangle>320 448 64 64</Rectangle>
+		<Rectangle>448 192 128 64</Rectangle>
+		<Rectangle>448 320 128 64</Rectangle>
+		<Rectangle>448 448 128 64</Rectangle>
+		<Rectangle>640 192 64 64</Rectangle>
+		<Rectangle>640 320 64 64</Rectangle>
+		<Rectangle>640 448 64 64</Rectangle>
+		<Rectangle>768 192 64 64</Rectangle>
+		<Rectangle>768 320 64 64</Rectangle>
+		<Rectangle>768 448 64 64</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+
+		<Item>Door left 10</Item>
+		<Item>Door top 13</Item>
+		<Item>KeyDoor top</Item>
+		<Item>Key 640 512 true</Item>
+		<Enemy>Wallmaster 256 128 0</Enemy>
+		<Enemy>Wallmaster 128 448 0</Enemy>
+		
+
+	</Room>
+	<Room>
+		<RoomNumber>12</RoomNumber>
+		<SourceRectangle>515 178 256 176</SourceRectangle>
+		
+		<Rectangle>0 0 472 128</Rectangle>
+		<Rectangle>548 0 472 128</Rectangle>
+
+		<Rectangle>0 576 472 128</Rectangle>
+		<Rectangle>548 576 472 128</Rectangle>
+		
+		<Rectangle>0 0 128 700</Rectangle>
+		<Rectangle>896 0 128 700</Rectangle>
+		
+		
+		<Rectangle>128 128 64 192</Rectangle>
+		<Rectangle>128 128 320 64</Rectangle>
+		<Rectangle>384 128 64 320</Rectangle>
+		<Rectangle>384 384 128 64</Rectangle>
+		<Rectangle>128 384 64 192</Rectangle>
+		<Rectangle>128 512 320 64</Rectangle>
+		<Rectangle>256 256 64 320</Rectangle>
+		<Rectangle>512 256 128 64</Rectangle>
+		<Rectangle>576 256 64 320</Rectangle>
+		<Rectangle>576 512 320 64</Rectangle>
+		<Rectangle>832 384 64 192</Rectangle>
+		<Rectangle>576 128 384 64</Rectangle>
+		<Rectangle>704 128 64 320</Rectangle>
+		<Rectangle>856 128 64 192</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+
+		
+		<Item>Door top 16</Item>
+		
+		<Item>Door bottom 9</Item>
+		<Item>KeyDoor top</Item>
+		<Enemy>Skeleton 256 192 false</Enemy>
+		<Enemy>Skeleton 320 350 true</Enemy>
+		<Enemy>Skeleton 768 230 false</Enemy>
+		
+
+	</Room>
+	<Room>
+		<RoomNumber>13</RoomNumber>
+		<SourceRectangle>1029 178 256 176</SourceRectangle>
+		
+		<Rectangle>0 0 128 284</Rectangle>
+		<Rectangle>0 0 128 700</Rectangle>
+		<Rectangle>0 420 128 284</Rectangle>
+		<Rectangle>0 0 1024 128</Rectangle>
+		
+		<Rectangle>0 584 1024 128</Rectangle>
+
+		<Rectangle>0 0 128 312</Rectangle>
+		<Rectangle>0 388 128 312</Rectangle>
+
+		<Rectangle>0 0 472 128</Rectangle>
+		<Rectangle>548 0 472 128</Rectangle>
+
+		<Rectangle>896 0 128 312</Rectangle>
+		<Rectangle>896 388 128 312</Rectangle>
+
+		<Rectangle>0 576 472 128</Rectangle>
+		<Rectangle>548 576 472 128</Rectangle>
+		
+		<Rectangle>576 128 320 64</Rectangle>
+		<Rectangle>704 192 192 64</Rectangle>
+		<Rectangle>768 256 128 64</Rectangle>
+		<Rectangle>768 384 128 64</Rectangle>
+		<Rectangle>704 448 192 64</Rectangle>
+		<Rectangle>576 512 320 64</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+		
+		<Enemy>Dragon 600 300</Enemy>
+		
+		<Item>Door right 14</Item>
+		<Item>Door bottom 11</Item>
+		<Item>KeyDoor bottom</Item>
+
+		<Item>ClearRoomDoor right false</Item>
+		
+		
+	</Room>
+	<Room>
+		<RoomNumber>14</RoomNumber>
+		<SourceRectangle>1286 178 256 176</SourceRectangle>
+		<Rectangle>0 0 128 312</Rectangle>
+		<Rectangle>0 388 128 312</Rectangle>
+
+		
+		<Rectangle>0 0 1024 128</Rectangle>
+		<Rectangle>896 0 128 700</Rectangle>
+		<Rectangle>0 584 1024 128</Rectangle>
+		
+		
+		<Rectangle>192 192 640 64</Rectangle>
+		<Rectangle>192 448 256 64</Rectangle>
+		<Rectangle>576 448 256 64</Rectangle>
+		<Rectangle>192 192 64 320</Rectangle>
+		<Rectangle>768 192 64 320</Rectangle>
+		<Rectangle>320 320 64 64</Rectangle>
+		<Rectangle>384 256 64 64</Rectangle>
+		<Rectangle>576 256 64 64</Rectangle>
+		<Rectangle>640 320 64 64</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+		
+		
+		<Item>Door left 13</Item>
+		<Item>Triforce 490 340</Item>
+		
+
+	</Room>
+	<Room>
+		<RoomNumber>15</RoomNumber>
+		<SourceRectangle>258 1 256 176</SourceRectangle>
+
+
+		
+
+		<Rectangle>896 0 128 312</Rectangle>
+		<Rectangle>896 388 128 312</Rectangle>
+
+		<Rectangle>0 0 128 700</Rectangle>
+		<Rectangle>0 0 1024 128</Rectangle>
+		<Rectangle>0 584 1024 128</Rectangle>
+		
+		
+		<Rectangle>512 192 64 64</Rectangle>
+		<Rectangle>448 256 64 64</Rectangle>
+		<Rectangle>576 256 64 64</Rectangle>
+		
+		<Rectangle>640 320 64 64</Rectangle>
+		<Rectangle>448 384 64 64</Rectangle>
+		<Rectangle>576 384 64 64</Rectangle>
+		<Rectangle>512 448 64 64</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+		
+		
+		
+		<Item>Door right 16</Item>
+		<Item>DecoyBlock 384 320</Item>
+		<Enemy>Trap 128 128</Enemy>
+		<Enemy>Trap 832 128</Enemy>
+		<Enemy>Trap 128 512</Enemy>
+		<Enemy>Trap 832 512</Enemy>
+		<Item>Door basement 17</Item>
+		
+
+	</Room>
+	<Room>
+		<RoomNumber>16</RoomNumber>
+		<SourceRectangle>515 1 256 176</SourceRectangle>
+		<Rectangle>0 0 128 312</Rectangle>
+		<Rectangle>0 388 128 312</Rectangle>
+
+		
+
+		<Rectangle>0 576 472 128</Rectangle>
+		<Rectangle>548 576 472 128</Rectangle>
+		<Rectangle>0 0 1024 128</Rectangle>
+		<Rectangle>896 0 128 700</Rectangle>
+
+		<Rectangle>192 192 64 320</Rectangle>
+		<Rectangle>192 192 192 64</Rectangle>
+		<Rectangle>192 448 192 64</Rectangle>
+
+		<Rectangle>768 192 64 320</Rectangle>
+		<Rectangle>640 192 192 64</Rectangle>
+		<Rectangle>640 448 192 64</Rectangle>
+
+		<Rectangle>320 320 384 64</Rectangle>
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+		<Item>Door left 15</Item>
+		<Item>Key 512 192 true</Item>
+		<Item>Door bottom 12</Item>
+		
+		<Item>KeyDoor left</Item>
+		<Enemy>Goriya 640 384</Enemy>
+		<Enemy>Goriya 448 256</Enemy>
+		<Enemy>Goriya 512 128</Enemy>
+		
+	</Room>
+	<Room>
+		<RoomNumber>17</RoomNumber>
+		<SourceRectangle>1 1 256 160</SourceRectangle>
+		<Rectangle>0 0 192 472</Rectangle>
+		<Rectangle>0 0 128 704</Rectangle>
+		<Rectangle>0 563 1024 128</Rectangle>
+		<Rectangle>896 0 128 704</Rectangle>
+		<Rectangle>264 0 700 136</Rectangle>
+		<Rectangle>264 0 192 418</Rectangle>
+		<Rectangle>452 356 256 64</Rectangle>
+		<Rectangle>772 356 256 64</Rectangle>
+		
+		<Item>Door attic 15</Item>
+
+		
+
+		<Rectangle>0 0 92 700</Rectangle>
+		<Rectangle>0 0 1024 92</Rectangle>
+		<Rectangle>932 0 92 700</Rectangle>
+		<Rectangle>0 608 1024 92</Rectangle>
+
+		<Item>Bow 600 256</Item>
+		<Enemy>Bat 192 384</Enemy>
+		<Enemy>Bat 384 384</Enemy>
+		<Enemy>Bat 512 384</Enemy>
+		<Enemy>Bat 768 384</Enemy>
+		
+		
+
+	</Room>
+
+</XnaContent>
